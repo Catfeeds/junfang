@@ -1,0 +1,28 @@
+bbd_loan_order_mapping 关联需资方融资单到下游订单
+loan_order_id.order_group_id,contractId 修改
+贷2需方融资单 status 已取消
+bbd_lender_order_info rel_order_contractid rel_order_borrower_name
+bbd_extention
+
+select loan.`contract_id` ,loan.`order_group_id` ,loan.`transfer_sides`,loan.`demander`  ,loan.`borrower` , loan.`provider` ,loan.`status` , loan.* from `bbd_loan_order` loan
+where loan.id in ('RZ20170619015','RZ20170619010','RZ20170623006')
+
+SELECT * FROM `bbd_lender_order_info` loi
+where loi.`loan_order_id`  = 'RZ20170615001'	
+
+FT-20170619-JF-04
+
+SELECT * FROM `bbd_loan_order_mapping` lom
+where lom.`loan_order_id` in('RZ20170612018','RZ20170612007','RZ20170612027')
+
+SELECT o.`financing` , o.* FROM `t_myorder` o
+where o.`MyOrder_id` ='Q2017061000008'
+
+SELECT loan.`order_group_id` , stage.* FROM `bbd_loan_interest_stage` stage
+LEFT JOIN `bbd_loan_order` loan on loan.id = stage.`loan_order_id` 
+where stage.`loan_order_id` in ('RZ20170612018','RZ20170615001','RZ20170612010','RZ20170614018','RZ20170612005','RZ20170614020','RZ20170614017','RZ20170614014','RZ20170614006','RZ20170614004','RZ20170619017','RZ20170621008','RZ20170619016','RZ20170619015')
+and stage.`ref_extension_request_id`  is not null
+
+
+bbd_payment_order
+

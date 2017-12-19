@@ -1,0 +1,18 @@
+	
+合同待生成
+合同需方未签
+合同供方未签
+
+SELECT * from `t_order_time_node` node
+where node.`enteredTime` >'2017-05-12'
+and node.`updatedTime` is null
+and node.`stage` like '合同需方未签'
+
+
+合同需方未签
+SELECT o.`contractType` ,node.* from `t_order_time_node` node
+LEFT JOIN `t_myorder` o on o.`MyOrder_id`  = node.`order_id` 
+where node.`enteredTime` >'2017-05-12'
+and node.`updatedTime` is null
+and node.`stage` like '合同需方未签'
+and o.`contractType` <>'需方待签'

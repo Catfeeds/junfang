@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisioDocument>
+	<DocumentProperties>
+		<Title></Title>
+		<HyperlinkBase href=""></HyperlinkBase>
+	</DocumentProperties>
+	<Pages>
+		<Page ID="0" Name="用例-1" NameU="Page-1">
+			<Shapes>
+				<Shape ID="1" UniqueID="{CF067877-B7DF-43EC-B1C1-074F986D9EBD}" Name="参与者" NameU="Actor" Master="23">
+					<Text>用户</Text>
+					<XForm>
+						<PinX Unit="MM">0.431102362204724</PinX>
+						<PinY Unit="MM">7.718503937007874</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="2" UniqueID="{36B7BDA4-D825-4EC1-B387-113522AA384D}" Name="Watermark Title" NameU="Watermark Title" Master="18">
+					<Text>用例</Text>
+					<XForm>
+						<PinX Unit="MM">5.462598425196850</PinX>
+						<PinY Unit="MM">11.692913385826770</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="3" UniqueID="{3BF7823A-131D-43B3-81CE-E849420BCA36}" Name="对象生命线" NameU="Object Lifeline" Master="24">
+					<Text>SSO</Text>
+					<XForm>
+						<PinX Unit="MM">5.728346456692913</PinX>
+						<PinY Unit="MM">7.994094488188976</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="10" UniqueID="{094F61A0-C9A2-4EBC-89E8-E40438C95312}" Name="对象生命线.10" NameU="Object Lifeline.10" Master="24">
+					<Text>缓存</Text>
+					<XForm>
+						<PinX Unit="MM">7.165354330708661</PinX>
+						<PinY Unit="MM">7.994094488188975</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="19" UniqueID="{390E705F-6F5C-4F50-ACA4-E4116B8B5B9B}" Name="对象生命线.19" NameU="Object Lifeline.19" Master="24">
+					<Text>集成系统A</Text>
+					<XForm>
+						<PinX Unit="MM">4.251968503937007</PinX>
+						<PinY Unit="MM">7.950787401574802</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="26" UniqueID="{6954EB2E-4161-4A29-AF8D-71625C2E2C7D}" Name="消息(调用).26" NameU="Message (call).26" Master="25">
+					<Text>初次请求</Text>
+					<XForm>
+						<PinX Unit="MM">1.723425196850393</PinX>
+						<PinY Unit="MM">7.480314960629920</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="27" UniqueID="{4B908D15-D621-4018-A3B5-411F362FA73E}" Name="对象生命线.27" NameU="Object Lifeline.27" Master="24">
+					<Text>浏览器</Text>
+					<XForm>
+						<PinX Unit="MM">2.283464566929133</PinX>
+						<PinY Unit="MM">7.950787401574802</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="33" UniqueID="{B2142BD1-D902-44F2-A949-5F69B601BA12}" Name="对象生命线.33" NameU="Object Lifeline.33" Master="24">
+					<Text>用户</Text>
+					<XForm>
+						<PinX Unit="MM">1.181102362204724</PinX>
+						<PinY Unit="MM">7.972440944881889</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="39" UniqueID="{CDB32165-51F3-47BF-8044-5165A988A9A5}" Name="激活.39" NameU="Activation.39" Master="26">
+					<XForm>
+						<PinX Unit="MM">1.181102362204724</PinX>
+						<PinY Unit="MM">7.436023622047244</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="25" UniqueID="{04F8316E-9899-4AB9-814A-917F37A75487}" Name="消息(调用).25" NameU="Message (call).25" Master="25">
+					<Text>发起访问请求</Text>
+					<XForm>
+						<PinX Unit="MM">3.297244094488189</PinX>
+						<PinY Unit="MM">7.381889763779527</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="41" UniqueID="{9E337FC1-2127-4E6C-9D30-FD7496ECD37A}" Name="激活.41" NameU="Activation.41" Master="26">
+					<XForm>
+						<PinX Unit="MM">4.232283464566929</PinX>
+						<PinY Unit="MM">7.337598425196850</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="42" UniqueID="{A3C97AD7-F185-4D60-8E8E-75CCE227A21E}" Name="消息(返回)" NameU="Message (return)" Master="27">
+					<Text>无会话，重定向</Text>
+					<XForm>
+						<PinX Unit="MM">3.248031496062992</PinX>
+						<PinY Unit="MM">7.145669291338582</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="9" UniqueID="{CC523317-DCB1-40C6-B7EA-70D0278A284B}" Name="消息(调用)" NameU="Message (call)" Master="25">
+					<Text>重定向单点登录服务器</Text>
+					<XForm>
+						<PinX Unit="MM">4.035433070866141</PinX>
+						<PinY Unit="MM">6.594488188976378</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="17" UniqueID="{E9DAD98F-D947-4FA1-B9E7-A32313DBB5F9}" Name="激活" NameU="Activation" Master="26">
+					<XForm>
+						<PinX Unit="MM">5.708661417322833</PinX>
+						<PinY Unit="MM">6.464566929133858</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="44" UniqueID="{6990210E-C5C1-408D-B2C9-6F9C5FD2227A}" Name="消息(调用).44" NameU="Message (call).44" Master="25">
+					<Text>查询是否有session</Text>
+					<XForm>
+						<PinX Unit="MM">6.446850393700787</PinX>
+						<PinY Unit="MM">6.456692913385827</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="18" UniqueID="{FD0F2A8C-2498-4295-B2AC-E7900470C2A6}" Name="激活.18" NameU="Activation.18" Master="26">
+					<XForm>
+						<PinX Unit="MM">7.165354330708661</PinX>
+						<PinY Unit="IN">6.611220472440944</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="45" UniqueID="{63B54C26-C148-4E50-B88F-C417BDB58D68}" Name="消息(返回).45" NameU="Message (return).45" Master="27">
+					<Text>无，返回登录</Text>
+					<XForm>
+						<PinX Unit="MM">4.754921259842520</PinX>
+						<PinY Unit="MM">6.200787401574803</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="46" UniqueID="{D9EE055B-7578-4455-B3FE-D37159D50F81}" Name="激活.46" NameU="Activation.46" Master="26">
+					<XForm>
+						<PinX Unit="MM">1.181102362204724</PinX>
+						<PinY Unit="MM">5.663385826771653</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="47" UniqueID="{5E2EF046-9D6F-454D-90F9-4CDBD0448946}" Name="消息(调用).47" NameU="Message (call).47" Master="25">
+					<Text>输入用户名密码</Text>
+					<XForm>
+						<PinX Unit="MM">1.742125984251968</PinX>
+						<PinY Unit="MM">5.649606299212598</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="49" UniqueID="{6BF32553-8813-4D1C-B5CB-A56C4C410F37}" Name="消息(调用).49" NameU="Message (call).49" Master="25">
+					<Text>请求认证登录</Text>
+					<XForm>
+						<PinX Unit="MM">3.966535433070866</PinX>
+						<PinY Unit="MM">5.452755905511811</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="50" UniqueID="{61BADE26-BA4E-4B46-83DD-5CF43D9719C1}" Name="激活.50" NameU="Activation.50" Master="26">
+					<XForm>
+						<PinX Unit="MM">5.728346456692913</PinX>
+						<PinY Unit="IN">5.370078740157480</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="52" UniqueID="{60AE4787-4360-45D0-B30C-5E5E9051B070}" Name="激活.52" NameU="Activation.52" Master="26">
+					<XForm>
+						<PinX Unit="MM">7.165354330708661</PinX>
+						<PinY Unit="IN">5.370078740157478</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="51" UniqueID="{69770654-8B65-48CC-9EA4-BB3550442FD5}" Name="消息(调用)" NameU="Message (call)" Master="28">
+					<Text>缓存登录信息</Text>
+					<XForm>
+						<PinX Unit="MM">5.905511811023621</PinX>
+						<PinY Unit="MM">5.386811023622046</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="53" UniqueID="{418D2EE1-52A2-4DB7-B7E2-9DAAB75C4FCC}" Name="激活.53" NameU="Activation.53" Master="26">
+					<XForm>
+						<PinX Unit="MM">4.251968503937007</PinX>
+						<PinY Unit="IN">4.275590551181101</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="54" UniqueID="{1EE9CEBA-0477-439D-8BA0-EB7443D769F9}" Name="消息(返回).54" NameU="Message (return).54" Master="27">
+					<Text>登录成功</Text>
+					<XForm>
+						<PinX Unit="MM">4.990157480314959</PinX>
+						<PinY Unit="MM">5.118110236220472</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="55" UniqueID="{81C555F8-2B2E-4B16-92D1-294088AA68EF}" Name="对象生命线.55" NameU="Object Lifeline.55" Master="24">
+					<Text>DB</Text>
+					<XForm>
+						<PinX Unit="MM">8.346456692913385</PinX>
+						<PinY Unit="MM">7.994094488188976</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="61" UniqueID="{C18D64D5-7F29-4607-9E24-396D9B23B357}" Name="激活.61" NameU="Activation.61" Master="26">
+					<XForm>
+						<PinX Unit="MM">7.185039370078739</PinX>
+						<PinY Unit="MM">4.650590551181102</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="62" UniqueID="{C6CFE08C-6B87-4586-B6FE-BD64FBAC18C3}" Name="消息(调用).62" NameU="Message (call).62" Master="25">
+					<Text>查询权限信息</Text>
+					<XForm>
+						<PinX Unit="MM">5.706938976377952</PinX>
+						<PinY Unit="MM">4.624015748031495</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="63" UniqueID="{AD3A095F-EA85-4BFF-8C14-CA5ADA48D07A}" Name="消息(返回).63" NameU="Message (return).63" Master="27">
+					<Text>有，返回权限信息</Text>
+					<XForm>
+						<PinX Unit="MM">5.757874015748031</PinX>
+						<PinY Unit="MM">4.379921259842520</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="64" UniqueID="{86D32DF0-77EB-49AA-A8A8-451E4849575D}" Name="激活.64" NameU="Activation.64" Master="26">
+					<XForm>
+						<PinX Unit="MM">8.346456692913385</PinX>
+						<PinY Unit="IN">3.818897637795275</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="65" UniqueID="{69472ECF-B605-4B11-96F4-413DB78FA001}" Name="消息(调用).65" NameU="Message (call).65" Master="25">
+					<Text>无，数据库查询</Text>
+					<XForm>
+						<PinX Unit="MM">7.745078740157480</PinX>
+						<PinY Unit="MM">3.996062992125984</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="66" UniqueID="{4D7DB757-8C60-486B-BB73-A4FA4E313B3C}" Name="激活.66" NameU="Activation.66" Master="26">
+					<XForm>
+						<PinX Unit="MM">7.185039370078739</PinX>
+						<PinY Unit="MM">3.937007874015747</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="67" UniqueID="{18AF2DC2-648B-40F7-8685-CFC59F827561}" Name="消息(返回).67" NameU="Message (return).67" Master="27">
+					<Text>返回权限信息</Text>
+					<XForm>
+						<PinX Unit="MM">6.299212598425196</PinX>
+						<PinY Unit="MM">3.543307086614173</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="68" UniqueID="{369C4EA8-7384-4F9D-91B1-9025BF7555B1}" Name="消息(返回).68" NameU="Message (return).68" Master="27">
+					<Text>带着权限信息和导航选中信息重定向</Text>
+					<XForm>
+						<PinX Unit="MM">3.297244094488189</PinX>
+						<PinY Unit="MM">3.444881889763779</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="69" UniqueID="{C91A19FC-A5B2-4F44-AE99-BA6D9AF634A7}" Name="消息(调用) .69" NameU="Message (call) .69" Master="28">
+					<Text>缓存权限</Text>
+					<XForm>
+						<PinX Unit="MM">7.342519685039370</PinX>
+						<PinY Unit="MM">3.812007874015748</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="16" UniqueID="{408F3586-E5F5-4A5A-9A00-8A82113F045F}" Name="对象生命线.16" NameU="Object Lifeline.16" Master="24">
+					<Text>子系统B</Text>
+					<XForm>
+						<PinX Unit="MM">3.267716535433071</PinX>
+						<PinY Unit="MM">7.972440944881889</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="40" UniqueID="{B098658E-C31A-4B9D-BF4B-2B27473651F9}" Name="激活.40" NameU="Activation.40" Master="26">
+					<XForm>
+						<PinX Unit="MM">2.283464566929133</PinX>
+						<PinY Unit="IN">7.207677165354330</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="43" UniqueID="{8CDAC274-3A43-4739-91D8-D9EAB914930B}" Name="激活.43" NameU="Activation.43" Master="26">
+					<XForm>
+						<PinX Unit="MM">2.283464566929133</PinX>
+						<PinY Unit="IN">6.347440944881889</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="48" UniqueID="{B2FADC06-CD38-4A43-AF12-3FE46EE1AD0D}" Name="激活.48" NameU="Activation.48" Master="26">
+					<XForm>
+						<PinX Unit="MM">2.283464566929133</PinX>
+						<PinY Unit="IN">4.265748031496062</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="75" UniqueID="{AE8ECC4F-5464-4EBD-B551-626005220731}" Name="激活.75" NameU="Activation.75" Master="26">
+					<XForm>
+						<PinX Unit="MM">3.267716535433071</PinX>
+						<PinY Unit="IN">3.047244094488188</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="76" UniqueID="{18E4163F-ED3B-444A-934B-A5A47F75BB58}" Name="消息(调用).76" NameU="Message (call).76" Master="25">
+					<Text>跳转到B系统页面</Text>
+					<XForm>
+						<PinX Unit="MM">2.835629921259843</PinX>
+						<PinY Unit="MM">2.952755905511811</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+	</Pages>
+</VisioDocument>

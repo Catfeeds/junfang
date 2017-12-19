@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="holyant" date="2017-02-19T13:35:40.354Z" timestamp="2017-02-19T13:35:40.354Z">
+    <change idref="t9" attribute="internalEffortDone" type="real" from="57600" to="144000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="holyant" date="2017-02-19T13:38:07.674Z" timestamp="2017-02-19T13:38:07.674Z">
+    <change idref="t2" attribute="effort" type="real" from="432000" to="576000" resolved="yes"/>
+  </task-change-set>
+</changelog>

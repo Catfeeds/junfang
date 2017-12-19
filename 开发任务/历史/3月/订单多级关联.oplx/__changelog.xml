@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="holyant" date="2017-03-06T01:39:15.259Z" timestamp="2017-03-06T01:39:15.259Z">
+    <change idref="t1" attribute="noEarlierThanConstraintDate" type="date" to="2017-02-24T00:15:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="holyant" date="2017-03-06T01:39:56.855Z" timestamp="2017-03-06T01:39:56.855Z">
+    <change idref="t1" attribute="noLaterThanConstraintDate" type="date" to="2017-03-22T16:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="holyant" date="2017-03-06T01:40:24.934Z" timestamp="2017-03-06T01:40:24.934Z">
+    <change idref="t1" attribute="title" type="string" from="任务 1" to="中转订单可以实现多次关联" resolved="yes"/>
+  </task-change-set>
+  <metadata-change-set user="holyant" date="2017-03-06T01:37:26.042Z" timestamp="2017-03-06T01:37:26.042Z">
+    <change idref="m1" attribute="fixedDate" type="date" from="2007-01-01T20:00:00.000Z" to="2017-03-06T00:00:00.000Z" resolved="yes"/>
+  </metadata-change-set>
+</changelog>
